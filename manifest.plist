@@ -11,7 +11,7 @@
           <key>kind</key>
           <string>software-package</string>
           <key>url</key>
-          <string>https://cdn.jsdelivr.net/gh/cuicsi666/baibaoshi-ota@main/Baibaoshi_V7.8.ipa</string>
+          <string>https://cdn.jsdelivr.net/gh/cuicsi666/baibaoshi-ota@main/Baibaoshi_V7.9.ipa</string>
         </dict>
       </array>
       <key>metadata</key>
@@ -19,7 +19,7 @@
         <key>bundle-identifier</key>
         <string>com.cuicsi.baibaoshi</string>
         <key>bundle-version</key>
-        <string>7.8</string>
+        <string>7.9</string>
         <key>kind</key>
         <string>software</string>
         <key>title</key>
