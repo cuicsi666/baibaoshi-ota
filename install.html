@@ -5,23 +5,22 @@
 <title>百宝箱安装</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
-  body { background:#f5f6fa; text-align:center; font-family:-apple-system,BlinkMacSystemFont,sans-serif; padding-top:70px; margin:0; }
-  h2 { color:#222; font-weight:700; }
-  p { color:#666; font-size:14px; }
-  .btn { display:inline-block; margin-top:24px; padding:14px 36px; background:linear-gradient(135deg,#34E0A1,#2AD4C8); color:#fff; border-radius:14px; text-decoration:none; font-weight:600; font-size:17px; box-shadow:0 6px 18px rgba(42,212,200,.35); }
-  .btn:active { opacity:.8; }
-  .tip { margin-top:26px; color:#999; font-size:12px; }
+  body { background:#f5f6fa; text-align:center; font-family:-apple-system,BlinkMacSystemFont,sans-serif; padding-top:50px; margin:0; }
+  .box { background:#fff; border-radius:20px; max-width:340px; margin:0 auto; padding:36px 24px; box-shadow:0 8px 30px rgba(0,0,0,.08); }
+  h2 { color:#222; font-weight:700; margin:0 0 8px; }
+  p { color:#666; font-size:14px; line-height:1.6; margin:8px 0; }
+  .btn { display:block; margin-top:22px; padding:16px 20px; background:linear-gradient(135deg,#34E0A1,#2AD4C8); color:#fff; border-radius:14px; text-decoration:none; font-weight:700; font-size:18px; box-shadow:0 6px 18px rgba(42,212,200,.35); }
+  .btn:active { transform:scale(.97); }
+  .ver { color:#999; font-size:12px; margin-top:16px; }
 </style>
 </head>
 <body>
-<h2>⚡️ 百宝箱安装</h2>
-<p>正在唤起系统安装…</p>
-<a class="btn" href="itms-services://?action=download-manifest&url=https://cdn.jsdelivr.net/gh/cuicsi666/baibaoshi-ota@main/manifest.plist">立即安装</a>
-<p class="tip">若无弹窗，请点击上方按钮</p>
-<script>
-  setTimeout(function () {
-    window.location.href = "itms-services://?action=download-manifest&url=https://cdn.jsdelivr.net/gh/cuicsi666/baibaoshi-ota@main/manifest.plist";
-  }, 300);
-</script>
+<div class="box">
+  <div style="font-size:48px;">⚡️</div>
+  <h2>百宝箱安装</h2>
+  <p>点击下方按钮开始安装<br>系统会弹出安装确认框</p>
+  <a class="btn" href="itms-services://?action=download-manifest&url=https://cdn.jsdelivr.net/gh/cuicsi666/baibaoshi-ota@main/manifest.plist">📦 立即安装</a>
+  <p class="ver">版本：8.1</p>
+</div>
 </body>
 </html>
